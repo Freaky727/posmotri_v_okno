@@ -296,5 +296,5 @@ ol {
 }
 
 .content {
-  
+  display: flex;
 }
