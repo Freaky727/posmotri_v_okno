@@ -294,7 +294,3 @@ ol {
   object-fit: cover;
   object-position: center;
 }
-
-.content {
-  display: flex;
-}
