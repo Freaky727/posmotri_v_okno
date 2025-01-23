@@ -49,29 +49,29 @@ ol {
 } 
 
 .title {
+  margin-bottom: 26px;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
   text-transform: uppercase;
-  padding-top: 190px;
 }
 
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   column-gap: 30px;
   width: 1140px;
-  padding-right: 30px;
+  margin: auto;
 }
 
 .result__video-container {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-top: 272px;
+  margin-bottom: 16px;
 }
 
 .result__video {
@@ -85,8 +85,6 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  padding-top: 16px;
-  max-width: 711px;
 }
 
 .search-form__fieldset {
@@ -228,8 +226,6 @@ ol {
   position: relative;
   height: 298px;
   padding: 5px;
-  margin-right: 40px;
-  margin-top: 18px;
   overflow-y: auto;
 }
 
@@ -299,3 +295,4 @@ ol {
   object-fit: cover;
   object-position: center;
 }
+
